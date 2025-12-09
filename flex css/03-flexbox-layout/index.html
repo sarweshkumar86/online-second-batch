@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        /* background-color: rgb(212, 235, 235); */
+        font-size: 2rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .box-1{
+        width: 100%;
+        height: 10%;
+        background-color: aqua;
+    }
+    .box-2{
+        width: 100%;
+        height: 10%;
+        background-color: rgb(255, 94, 94);
+    }
+    .box-3{
+        width: 100%;
+        height: 70%;
+        /* background-color: rgb(94, 255, 94); */
+        display: flex;
+    }
+    .box-4{
+        width: 100%;
+        height: 10%;
+        background-color: rgb(94, 94, 255);
+    }
+    .item-1
+    {
+        width: 30%;
+        height: 100%;
+        background-color: rgb(175, 50, 224);
+    }
+    .item-2
+    {
+        width: 70%;
+        height: 100%;
+        /* background-color: rgb(221, 31, 212); */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .content{
+        width: 100%;
+        height: 50%;
+        background-color: rgb(224, 175, 50);
+    }
+    .section
+    {
+        width: 100%;
+        height: 50%;
+        background-color: rgb(31, 212, 197);
+    }
+
+
+</style>
+<body>
+    
+    <div class="container">
+        <div class="box box-1">Header</div>
+        <div class="box box-2">Navigation</div>
+        <div class="box box-3">
+            <div class="item item-1">Aside</div>
+            <div class="item item-2">
+                <div class="content">content</div>
+                <div class="section">section</div>
+            </div>
+
+        </div>
+        <div class="box box-4">Footer</div>
+
+    </div>
+
+
+</body>
+</html>

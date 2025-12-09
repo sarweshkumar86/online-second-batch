@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-color: aqua;
+        background-image: linear-gradient(90deg,rgb(67, 109, 148),rgb(196, 75, 226));
+        background-image: url(https://images.unsplash.com/photo-1534361960057-19889db9621e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870);
+      
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        color: whitesmoke;
+        height: 10%;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+        background-image: transparent;
+    }
+    ul{
+        display: flex;
+        gap: 20px;
+    }
+    .header
+    {
+        padding-left: 20px;
+        a{
+            color: whitesmoke;
+        }
+    }
+    button{
+        margin-right: 20px;
+        width: 5rem;
+        height: 2rem;
+        border-radius: 10px;
+        border: 2px solid rgb(250, 238, 250);
+        background-color: transparent;
+        color: white;
+    }
+    .hero{
+        height: 90%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: whitesmoke;
+        padding-left: 20px;
+        
+    }
+    .title{
+        font-size: 3rem;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+    }
+    .title-para{
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+    .btn{
+        width: 7rem;
+        height: 2.5rem;
+        border-radius: 10px;
+        border: 2px solid rgb(250, 238, 250);
+        background-color: transparent;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+</style>
+<body>
+    
+    <div class="container">
+        <section class="header">
+            <h2 class="logo">Thinkworks</h2>
+            <ul>
+                <li><a href="http://">Home</a></li>
+                <li><a href="http://">About</a></li>
+                <li><a href="http://">Gallary</a></li>
+            </ul>
+            <button>Contact</button>
+
+        </section>
+
+        <section class="hero ">
+
+        <div class="banner">
+            <h1 class="title">we train dogs with love and patience</h1>
+            <p class="title-para"> A pet dog is more than just an animal — it’s a loyal companion and a true friend.
+Their love, joy, <br> and energy make every home feel warmer and happier.</p>
+                <button class="btn">Contact Now</button>
+
+            </div>
+            </section>
+    </div>
+
+</body>
+</html>

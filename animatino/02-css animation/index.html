@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(20, 82, 76);
+    margin: 100px auto;
+    
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+   animation: rotate-center 1s linear 0s infinite normal none;
+
+
+}
+
+@keyframes rotate-center {
+			
+		0% {
+			transform:rotate(0);
+		}
+		100% {
+			transform:rotate(360deg);
+		}
+	}
+
+</style>
+<body>
+    
+
+    <div class="box"></div>
+
+
+</body>
+</html>
